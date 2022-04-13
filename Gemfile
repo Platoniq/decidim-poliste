@@ -3,29 +3,30 @@
 source "https://rubygems.org"
 
 ruby RUBY_VERSION
-DECIDIM_VERSION="0.25.2"
+DECIDIM_VERSION = "0.26.1"
 
 gem "decidim", DECIDIM_VERSION
 gem "decidim-conferences", DECIDIM_VERSION
 gem "decidim-consultations", DECIDIM_VERSION
 # gem "decidim-elections", DECIDIM_VERSION
-#gem "decidim-initiatives", DECIDIM_VERSION
+# gem "decidim-initiatives", DECIDIM_VERSION
 gem "decidim-templates", DECIDIM_VERSION
 
 # bug in version 1.9
 gem "i18n", "~> 1.8.1"
 
 gem "bootsnap", "~> 1.7"
-gem "puma", ">= 5.0.0"
-gem "faker", "~> 2.14"
-gem "wicked_pdf", "~> 2.1"
-gem "decidim-term_customizer", :ref => '12fbd0e', git: 'https://github.com/mainio/decidim-module-term_customizer'
 gem "decidim-decidim_awesome"
+gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer", branch: "develop"
+gem "faker", "~> 2.14"
 gem "omniauth-rails_csrf_protection"
+gem "puma", ">= 5.0.0"
+gem "wicked_pdf", "~> 2.1"
 
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
   gem "decidim-dev", DECIDIM_VERSION
+  gem "rubocop-faker"
 end
 
 group :development do

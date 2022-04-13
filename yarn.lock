@@ -10,9 +10,9 @@
     "@jridgewell/trace-mapping" "^0.3.0"
 
 "@apollo/client@^3.2.7":
-  "integrity" "sha512-MAm05+I1ullr64VLpZwon/ISnkMuNLf6vDqgo9wiMhHYBGT4yOAbAIseRdjCHZwfSx/7AUuBgaTNOssZPIr6FQ=="
-  "resolved" "https://registry.npmjs.org/@apollo/client/-/client-3.5.8.tgz"
-  "version" "3.5.8"
+  "integrity" "sha512-tL3iSpFe9Oldq7gYikZK1dcYxp1c01nlSwtsMz75382HcI6fvQXyFXUCJTTK3wgO2/ckaBvRGw7VqjFREdVoRw=="
+  "resolved" "https://registry.npmjs.org/@apollo/client/-/client-3.5.10.tgz"
+  "version" "3.5.10"
   dependencies:
     "@graphql-typed-document-node/core" "^3.0.0"
     "@wry/context" "^0.6.0"
@@ -1017,30 +1017,6 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     "to-fast-properties" "^2.0.0"
 
-"@codegram/decidim-bulletin_board@0.21.2":
-  "integrity" "sha512-o4eqR46lqtF/y+VyaV1elsLXLWnMEjMN1eCw27cDhvZHY4L+5Ec68w1HzC+brzLf5v5847DyS91kpxWIoi9C4A=="
-  "resolved" "https://registry.npmjs.org/@codegram/decidim-bulletin_board/-/decidim-bulletin_board-0.21.2.tgz"
-  "version" "0.21.2"
-  dependencies:
-    "@apollo/client" "^3.2.7"
-    "core-js" "^3.8.3"
-    "graphql" "^15.4.0"
-    "node-jose" "^2.0.0"
-    "regenerator-runtime" "^0.13.7"
-    "rxjs" "^6.6.3"
-    "webpack" "^5.11.0"
-    "webpack-cli" "^4.2.0"
-
-"@codegram/voting_schemes-dummy@0.21.2":
-  "integrity" "sha512-zwrBPIO8Escg54vxaqYqz4dgTbXq3xacu5h1u52mzABoYgniWLVzmsjTm6fKIzXs/RASgpxVmsIRgqiUDlHgCg=="
-  "resolved" "https://registry.npmjs.org/@codegram/voting_schemes-dummy/-/voting_schemes-dummy-0.21.2.tgz"
-  "version" "0.21.2"
-
-"@codegram/voting_schemes-electionguard@0.21.2":
-  "integrity" "sha512-BcAzcPVlC1glH8WRpyjeNZ804KAjbn3khUuzyNiOPnvFqYZoUhjcrKhB13S1YJNIk6v8NsGFDpkZq+s+irJQ/g=="
-  "resolved" "https://registry.npmjs.org/@codegram/voting_schemes-electionguard/-/voting_schemes-electionguard-0.21.2.tgz"
-  "version" "0.21.2"
-
 "@codemirror/highlight@^0.19.0":
   "integrity" "sha512-3W32hBCY0pbbv/xidismw+RDMKuIag+fo4kZIbD7WoRj+Ttcaxjf+vP6RttRHXLaaqbWh031lTeON8kMlDhMYw=="
   "resolved" "https://registry.npmjs.org/@codemirror/highlight/-/highlight-0.19.7.tgz"
@@ -1111,15 +1087,15 @@
   "resolved" "https://registry.npmjs.org/@csstools/convert-colors/-/convert-colors-1.4.0.tgz"
   "version" "1.4.0"
 
-"@decidim/browserslist-config@^0.25.2":
-  "integrity" "sha512-GcglqK/htk4gea7vEN+MI5POqKKdmKxzqNXyCJuN8naty2GRlEY0fRpXI2ioopRgiu8qbsXN7OZvTzelpyskBA=="
-  "resolved" "https://registry.npmjs.org/@decidim/browserslist-config/-/browserslist-config-0.25.2.tgz"
-  "version" "0.25.2"
+"@decidim/browserslist-config@^0.26.1":
+  "integrity" "sha512-xsmadXMFYhwLLvgSarRtkP+7QN3cKbW6EgniJ2IRjEwejDB12DNs2xSEBS+HnF844qjM/zBOH1hWqZ/QNAARlQ=="
+  "resolved" "https://registry.npmjs.org/@decidim/browserslist-config/-/browserslist-config-0.26.1.tgz"
+  "version" "0.26.1"
 
-"@decidim/core@^0.25.2":
-  "integrity" "sha512-DMyODk0/NUVHizY6JlGC4prrUSrZjzeoT3Dj28adM2/2YEtZOTq8HToQvA69ygBrU3F5igZsB+FdTlfCuaEuAg=="
-  "resolved" "https://registry.npmjs.org/@decidim/core/-/core-0.25.2.tgz"
-  "version" "0.25.2"
+"@decidim/core@^0.26.1":
+  "integrity" "sha512-QvDEmqj3K3Jbp0qINw8hM849rKEepCXOW6vPkHxvG7BcuoJj+vLjwhA0nhntWjqOpdaZiXnCme6ipvXBe0fSkw=="
+  "resolved" "https://registry.npmjs.org/@decidim/core/-/core-0.26.1.tgz"
+  "version" "0.26.1"
   dependencies:
     "@joeattardi/emoji-button" "^4.6.0"
     "@zeitiger/appendaround" "^1.0.0"
@@ -1157,36 +1133,60 @@
     "unfetch" "^3.0.0"
     "uuid" "^3.2.1"
 
-"@decidim/dev@^0.25.2":
-  "integrity" "sha512-DUOJ54yj7A7Ai0IHMLi0vDfN/MPYG0o8XVQ8ZN//0dPZc3F0yijDFW2aT8Oc0/FmM6LLg+o951rpYn0w5e5RBg=="
-  "resolved" "https://registry.npmjs.org/@decidim/dev/-/dev-0.25.2.tgz"
-  "version" "0.25.2"
+"@decidim/decidim-bulletin_board@0.22.3":
+  "integrity" "sha512-LN7wIK9IB9Zegr++fvEY2vAWdUvReLPCe3sbPMGadX3b2aurrx/SK3B38OfRdN2eqblksMzyNYtXALszA9dU2w=="
+  "resolved" "https://registry.npmjs.org/@decidim/decidim-bulletin_board/-/decidim-bulletin_board-0.22.3.tgz"
+  "version" "0.22.3"
+  dependencies:
+    "@apollo/client" "^3.2.7"
+    "core-js" "^3.8.3"
+    "graphql" "^15.4.0"
+    "node-jose" "^2.0.0"
+    "regenerator-runtime" "^0.13.7"
+    "rxjs" "^6.6.3"
+    "webpack" "^5.11.0"
+    "webpack-cli" "^4.2.0"
+
+"@decidim/dev@^0.26.1":
+  "integrity" "sha512-Y6DrmgvdRKoBkVdTjBYHxIfJTKvh/xDkHaXAyId+zTI+TxItiRn/yk5zpVGM1Ts1FbA1u7bz7U5rHLpJtGI4sg=="
+  "resolved" "https://registry.npmjs.org/@decidim/dev/-/dev-0.26.1.tgz"
+  "version" "0.26.1"
   dependencies:
     "axe-core" "^4.1.4"
 
-"@decidim/elections@^0.25.2":
-  "integrity" "sha512-7CMfJg3+JGyfkQABsAeKb67SQoDfJPfkxIgv4Ntye/7ndsu31LRcPgF9F5SGX/M/iklQ7C11kXauzdb+073bjQ=="
-  "resolved" "https://registry.npmjs.org/@decidim/elections/-/elections-0.25.2.tgz"
-  "version" "0.25.2"
+"@decidim/elections@^0.26.1":
+  "integrity" "sha512-6s8gROi7Slx51Brmp+mS6uSTeVhsxi5kiS7ynYwL6+zWVFS8N9/EhtYO9G0Sc1pGvboRsY0hz8n4aV+6cbLiFg=="
+  "resolved" "https://registry.npmjs.org/@decidim/elections/-/elections-0.26.1.tgz"
+  "version" "0.26.1"
   dependencies:
-    "@codegram/decidim-bulletin_board" "0.21.2"
-    "@codegram/voting_schemes-dummy" "0.21.2"
-    "@codegram/voting_schemes-electionguard" "0.21.2"
+    "@decidim/decidim-bulletin_board" "0.22.3"
+    "@decidim/voting_schemes-dummy" "0.22.3"
+    "@decidim/voting_schemes-electionguard" "0.22.3"
 
-"@decidim/eslint-config@^0.25.2":
-  "integrity" "sha512-+fX691I63s2qed0kEMec/91SwsRMee+xl4iY2ZDwsDX/CfyKZKDarZdevNi8gWSVw0nhl6AyJ1bmvQa2k8PEeg=="
-  "resolved" "https://registry.npmjs.org/@decidim/eslint-config/-/eslint-config-0.25.2.tgz"
-  "version" "0.25.2"
+"@decidim/eslint-config@^0.26.1":
+  "integrity" "sha512-BZ+hmCKbTXxJhj6R1z7QA/t2ZHzi8dyNbtej6l7owJHLwfAhIgMNSgKRvF5qNnfIGvIuMJoCqtSw/Mjr8u+jXQ=="
+  "resolved" "https://registry.npmjs.org/@decidim/eslint-config/-/eslint-config-0.26.1.tgz"
+  "version" "0.26.1"
 
-"@decidim/stylelint-config@^0.25.2":
-  "integrity" "sha512-Dnfyt/0Ljsp6moY3kBB97kIZxAsEeOpb/Vfud9pob4OdzjNaKPanuzaM+A7lK/WxFruwrJn5XUySduMUPCaGJw=="
-  "resolved" "https://registry.npmjs.org/@decidim/stylelint-config/-/stylelint-config-0.25.2.tgz"
-  "version" "0.25.2"
+"@decidim/stylelint-config@^0.26.1":
+  "integrity" "sha512-VsahXAAiekSE0khBVLgcgAfmCqex+nKYjdHWPv+MbjL9fA8GgdS5u+5G5/3hMQf03vvOuZMw2EVJNARs5WR0XA=="
+  "resolved" "https://registry.npmjs.org/@decidim/stylelint-config/-/stylelint-config-0.26.1.tgz"
+  "version" "0.26.1"
 
-"@decidim/webpacker@^0.25.2":
-  "integrity" "sha512-upAAlZRBck/B3VQWdG63SqSpgbmMoQeFCkN9omUgI6LvL0+wWEfD1NK9NNKZe/TnYK3MFLAhzQhiQ9UHdwXs3Q=="
-  "resolved" "https://registry.npmjs.org/@decidim/webpacker/-/webpacker-0.25.2.tgz"
-  "version" "0.25.2"
+"@decidim/voting_schemes-dummy@0.22.3":
+  "integrity" "sha512-Z5CwSUJNYW2KkoE5anAqAIwHnQHqpgGL4Xu2I7YqEn3thThlbWlY9U9Eq0O6fq7/pfBQLiAFFiBBAnCDv0HC2g=="
+  "resolved" "https://registry.npmjs.org/@decidim/voting_schemes-dummy/-/voting_schemes-dummy-0.22.3.tgz"
+  "version" "0.22.3"
+
+"@decidim/voting_schemes-electionguard@0.22.3":
+  "integrity" "sha512-RZn/1GO5PM6a2SuN8h/SoS4EeLYnHPWw6/tl2M26ms/Xzf1ewJIgBSiByxk4qHoqvE892rccH4+G56h6iVrIqg=="
+  "resolved" "https://registry.npmjs.org/@decidim/voting_schemes-electionguard/-/voting_schemes-electionguard-0.22.3.tgz"
+  "version" "0.22.3"
+
+"@decidim/webpacker@^0.26.1":
+  "integrity" "sha512-B37xQUgRdLH6vf5/bS1PwXOqGmQlGbG9lsuzef/7IagjTmv2VCTPpCBrTcs6YKa9UAXU5OG9pckEgE03RF+uRw=="
+  "resolved" "https://registry.npmjs.org/@decidim/webpacker/-/webpacker-0.26.1.tgz"
+  "version" "0.26.1"
   dependencies:
     "@babel/core" "^7.13.13"
     "@babel/eslint-parser" "^7.13.14"
@@ -4039,7 +4039,7 @@
     "debug" "^3.2.7"
     "resolve" "^1.20.0"
 
-"eslint-module-utils@^2.7.2":
+"eslint-module-utils@^2.7.3":
   "integrity" "sha512-088JEC7O3lDZM9xGe0RerkOMd0EjFl+Yvd1jPWIkMT5u3H9+HC34mWWPnqPrN13gieT9pBOO+Qt07Nb/6TresQ=="
   "resolved" "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.7.3.tgz"
   "version" "2.7.3"
@@ -4055,24 +4055,24 @@
     "eslint-utils" "^2.0.0"
     "regexpp" "^3.0.0"
 
-"eslint-plugin-import@^2.22.0", "eslint-plugin-import@^2.25.4", "eslint-plugin-import@>=2.8.0":
-  "integrity" "sha512-/KJBASVFxpu0xg1kIBn9AUa8hQVnszpwgE7Ld0lKAlx7Ie87yzEzCgSkekt+le/YVhiaosO4Y14GDAOc41nfxA=="
-  "resolved" "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.25.4.tgz"
-  "version" "2.25.4"
+"eslint-plugin-import@^2.22.0", "eslint-plugin-import@^2.26.0", "eslint-plugin-import@>=2.8.0":
+  "integrity" "sha512-hYfi3FXaM8WPLf4S1cikh/r4IxnO6zrhZbEGz2b660EJRbuxgpDS5gkCuYgGWg2xxh2rBuIr4Pvhve/7c31koA=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.26.0.tgz"
+  "version" "2.26.0"
   dependencies:
     "array-includes" "^3.1.4"
     "array.prototype.flat" "^1.2.5"
     "debug" "^2.6.9"
     "doctrine" "^2.1.0"
     "eslint-import-resolver-node" "^0.3.6"
-    "eslint-module-utils" "^2.7.2"
+    "eslint-module-utils" "^2.7.3"
     "has" "^1.0.3"
-    "is-core-module" "^2.8.0"
+    "is-core-module" "^2.8.1"
     "is-glob" "^4.0.3"
-    "minimatch" "^3.0.4"
+    "minimatch" "^3.1.2"
     "object.values" "^1.1.5"
-    "resolve" "^1.20.0"
-    "tsconfig-paths" "^3.12.0"
+    "resolve" "^1.22.0"
+    "tsconfig-paths" "^3.14.1"
 
 "eslint-plugin-jsx-a11y@^6.3.1":
   "integrity" "sha512-sVCFKX9fllURnXT2JwLN5Qgo24Ug5NF6dxhkmxsMEUZhXRcGg+X3e1JbJ84YePQKBl5E0ZjAH5Q4rkdcGY99+g=="
@@ -4555,10 +4555,10 @@
     "query-string" "^5.0.1"
     "query-string-es5" "^6.1.4"
 
-"formBuilder@^3.7.4":
-  "integrity" "sha512-82FetPYuwIJ08iOTqvVghaP667EkDDmkkdh5X7Lt482i965/o6kQTkTlzrQ+ESd+jISDrA6OrIiJFTUoOkmPSw=="
-  "resolved" "https://registry.npmjs.org/formBuilder/-/formBuilder-3.7.4.tgz"
-  "version" "3.7.4"
+"formBuilder@^3.8.3":
+  "integrity" "sha512-9Mxc/6LyWedsiEuktkxwPP+EEGkFP5xo2jTUnN37onmHgw3iX4nohc2AxaFODVVDDNAgX0X0bdHEhU7jIGogvg=="
+  "resolved" "https://registry.npmjs.org/formBuilder/-/formBuilder-3.8.3.tgz"
+  "version" "3.8.3"
   dependencies:
     "jquery" ">=3.4.1"
     "jquery-ui-sortable" "*"
@@ -4878,7 +4878,7 @@
   dependencies:
     "tslib" "^2.1.0"
 
-"graphql-ws@^5.4.1", "graphql-ws@>= 4.5.0":
+"graphql-ws@^5.4.1", "graphql-ws@^5.5.5", "graphql-ws@>= 4.5.0":
   "integrity" "sha512-hvyIS71vs4Tu/yUYHPvGXsTgo0t3arU820+lT5VjZS2go0ewp2LqyCgxEN56CzOG7Iys52eRhHBiD1gGRdiQtw=="
   "resolved" "https://registry.npmjs.org/graphql-ws/-/graphql-ws-5.5.5.tgz"
   "version" "5.5.5"
@@ -4975,10 +4975,10 @@
   "resolved" "https://registry.npmjs.org/hex-color-regex/-/hex-color-regex-1.1.0.tgz"
   "version" "1.1.0"
 
-"highlight.js@^11.4.0":
-  "integrity" "sha512-nawlpCBCSASs7EdvZOYOYVkJpGmAOKMYZgZtUqSRqodZE0GRVcFKwo1RcpeOemqh9hyttTdd5wDBwHkuSyUfnA=="
-  "resolved" "https://registry.npmjs.org/highlight.js/-/highlight.js-11.4.0.tgz"
-  "version" "11.4.0"
+"highlight.js@^11.5.1":
+  "integrity" "sha512-LKzHqnxr4CrD2YsNoIf/o5nJ09j4yi/GcH5BnYz9UnVpZdS4ucMgvP61TDty5xJcFGRjnH4DpujkS9bHT3hq0Q=="
+  "resolved" "https://registry.npmjs.org/highlight.js/-/highlight.js-11.5.1.tgz"
+  "version" "11.5.1"
 
 "hoist-non-react-statics@^3.3.2":
   "integrity" "sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw=="
@@ -5377,7 +5377,7 @@
     "rgb-regex" "^1.0.1"
     "rgba-regex" "^1.0.0"
 
-"is-core-module@^2.2.0", "is-core-module@^2.5.0", "is-core-module@^2.8.0", "is-core-module@^2.8.1":
+"is-core-module@^2.2.0", "is-core-module@^2.5.0", "is-core-module@^2.8.1":
   "integrity" "sha512-SdNCUs284hr40hFTFP6l0IfZ/RSrMXF3qgoRHd3/79unUTvrFO/JoXwkGm+5J/Oe3E/b5GsnG330uUNgRpu1PA=="
   "resolved" "https://registry.npmjs.org/is-core-module/-/is-core-module-2.8.1.tgz"
   "version" "2.8.1"
@@ -6182,10 +6182,10 @@
   "resolved" "https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz"
   "version" "1.0.1"
 
-"minimatch@^3.0.4":
-  "integrity" "sha512-reLxBcKUPNBnc/sVtAbxgRVFSegoGeLaSjmphNhcwcolhYLRgtJscn5mRl6YRZNQv40Y7P6JM2YhSIsbL9OB5A=="
-  "resolved" "https://registry.npmjs.org/minimatch/-/minimatch-3.1.1.tgz"
-  "version" "3.1.1"
+"minimatch@^3.0.4", "minimatch@^3.1.2":
+  "integrity" "sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw=="
+  "resolved" "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz"
+  "version" "3.1.2"
   dependencies:
     "brace-expansion" "^1.1.7"
 
@@ -6205,10 +6205,10 @@
     "is-plain-obj" "^1.1.0"
     "kind-of" "^6.0.3"
 
-"minimist@^1.2.0", "minimist@^1.2.5":
-  "integrity" "sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw=="
-  "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
-  "version" "1.2.5"
+"minimist@^1.2.0", "minimist@^1.2.5", "minimist@^1.2.6":
+  "integrity" "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q=="
+  "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+  "version" "1.2.6"
 
 "minipass-collect@^1.0.2":
   "integrity" "sha512-6T6lH0H8OG9kITm/Jm6tdooIbogG9e0tLgpY6mphXSm/A9u8Nq1ryBG+Qspiub9LjWlBPsPS3tWQ/Botq4FdxA=="
@@ -6348,9 +6348,9 @@
   "version" "1.2.1"
 
 "node-jose@^2.0.0":
-  "integrity" "sha512-Zmm8vFPJabphGBc5Wz1/LUMPS+1cynqw16RIhgVNQMEI2yEQrvl7Gx2EwN9GhP8tkm8f7SH53K2nIx8TeNTIdg=="
-  "resolved" "https://registry.npmjs.org/node-jose/-/node-jose-2.1.0.tgz"
-  "version" "2.1.0"
+  "integrity" "sha512-19nyuUGShNmFmVTeqDfP6ZJCiikbcjI0Pw2kykBCH7rl8AZgSiDZK2Ww8EDaMrOSbRg6IlfIMhI5ZvCklmOhzg=="
+  "resolved" "https://registry.npmjs.org/node-jose/-/node-jose-2.1.1.tgz"
+  "version" "2.1.1"
   dependencies:
     "base64url" "^3.0.1"
     "buffer" "^6.0.3"
@@ -8027,7 +8027,7 @@
   "resolved" "https://registry.npmjs.org/resolve-from/-/resolve-from-5.0.0.tgz"
   "version" "5.0.0"
 
-"resolve@^1.1.7", "resolve@^1.10.0", "resolve@^1.10.1", "resolve@^1.14.2", "resolve@^1.20.0", "resolve@^1.9.0":
+"resolve@^1.1.7", "resolve@^1.10.0", "resolve@^1.10.1", "resolve@^1.14.2", "resolve@^1.20.0", "resolve@^1.22.0", "resolve@^1.9.0":
   "integrity" "sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw=="
   "resolved" "https://registry.npmjs.org/resolve/-/resolve-1.22.0.tgz"
   "version" "1.22.0"
@@ -9040,14 +9040,14 @@
   "resolved" "https://registry.npmjs.org/ts-pnp/-/ts-pnp-1.2.0.tgz"
   "version" "1.2.0"
 
-"tsconfig-paths@^3.12.0":
-  "integrity" "sha512-e5adrnOYT6zqVnWqZu7i/BQ3BnhzvGbjEjejFXO20lKIKpwTaupkCPgEfv4GZK1IBciJUEhYs3J3p75FdaTFVg=="
-  "resolved" "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.12.0.tgz"
-  "version" "3.12.0"
+"tsconfig-paths@^3.14.1":
+  "integrity" "sha512-fxDhWnFSLt3VuTwtvJt5fpwxBHg5AdKWMsgcPOOIilyjymcYVZoCQF8fvFRezCNfblEXmi+PcM1eYHeOAgXCOQ=="
+  "resolved" "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.14.1.tgz"
+  "version" "3.14.1"
   dependencies:
     "@types/json5" "^0.0.29"
     "json5" "^1.0.1"
-    "minimist" "^1.2.0"
+    "minimist" "^1.2.6"
     "strip-bom" "^3.0.0"
 
 "tslib@^1.9.0":

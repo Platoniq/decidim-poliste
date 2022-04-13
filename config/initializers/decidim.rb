@@ -35,11 +35,11 @@ Decidim.configure do |config|
   # Map and Geocoder configuration
   #
   # == HERE Maps ==
-   config.maps = {
-     provider: :here,
-     api_key: Rails.application.secrets.maps[:api_key],
-     static: { url: "https://image.maps.ls.hereapi.com/mia/1.6/mapview" }
-   }
+  config.maps = {
+    provider: :here,
+    api_key: Rails.application.secrets.maps[:api_key],
+    static: { url: "https://image.maps.ls.hereapi.com/mia/1.6/mapview" }
+  }
   #
   # == OpenStreetMap (OSM) services ==
   # To use the OSM map service providers, you will need a service provider for
@@ -89,14 +89,14 @@ Decidim.configure do |config|
   # settings. The maps configuration will manage which geocoding service to use,
   # so that does not need any additional configuration here. Use this only for
   # the global geocoder preferences.
-   config.geocoder = {
-     # geocoding service request timeout, in seconds (default 3):
-     timeout: 5,
-     # set default units to kilometers:
-     units: :km,
-     # caching (see https://github.com/alexreisner/geocoder#caching for details):
-     #cache: Redis.new,
-     #cache_prefix: "..."
+  config.geocoder = {
+    # geocoding service request timeout, in seconds (default 3):
+    timeout: 5,
+    # set default units to kilometers:
+    units: :km
+    # caching (see https://github.com/alexreisner/geocoder#caching for details):
+    # cache: Redis.new,
+    # cache_prefix: "..."
   }
 
   # Custom resource reference generator method. Check the docs for more info.
@@ -278,7 +278,7 @@ Decidim.configure do |config|
   # Defines the name of the cookie used to check if the user allows Decidim to
   # set cookies.
   # config.consent_cookie_name = "decidim-cc"
-  #config.cors_enabled = true
+  # config.cors_enabled = true
 end
 
 Rails.application.config.i18n.available_locales = Decidim.available_locales
