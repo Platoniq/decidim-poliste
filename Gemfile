@@ -45,8 +45,7 @@ group :development do
 end
 
 group :production do
-  gem "passenger"
-  gem 'delayed_job_active_record'
-  gem "daemons"
   gem "figaro"
+  gem "sidekiq"
+  gem "sidekiq-cron"
 end
