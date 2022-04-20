@@ -1,0 +1,5 @@
+it:
+  time:
+    formats:
+      ddmm: '%d.%m'
+      ddmmyyyy: '%d.%m.%Y'
