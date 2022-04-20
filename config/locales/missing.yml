@@ -1,5 +1,17 @@
+en:
+  decidim:
+    notifications:
+      missing_event: Missing event
 it:
   time:
     formats:
       ddmm: '%d.%m'
       ddmmyyyy: '%d.%m.%Y'
+  decidim:
+    accessibility:
+      external_link: Collegamento esterno
+      front_page_link: Ir a la página principal
+      logo: "Logo ufficiale del %{organization}"
+      skip_button: Salta e vai al contenuto principale
+    notifications:
+      missing_event: Evento mancante
