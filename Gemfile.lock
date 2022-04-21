@@ -288,7 +288,7 @@ GEM
     decidim-debates (0.26.1)
       decidim-comments (= 0.26.1)
       decidim-core (= 0.26.1)
-    decidim-decidim_awesome (0.8.1)
+    decidim-decidim_awesome (0.8.2)
       decidim-admin (>= 0.25.0, < 0.27)
       decidim-core (>= 0.25.0, < 0.27)
       sassc (~> 2.3)
@@ -827,7 +827,7 @@ DEPENDENCIES
   decidim (= 0.26.1)
   decidim-conferences (= 0.26.1)
   decidim-consultations (= 0.26.1)
-  decidim-decidim_awesome
+  decidim-decidim_awesome (~> 0.8.2)
   decidim-dev (= 0.26.1)
   decidim-templates (= 0.26.1)
   decidim-term_customizer!
