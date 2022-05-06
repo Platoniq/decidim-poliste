@@ -1,4 +1,14 @@
 GIT
+  remote: https://github.com/Platoniq/decidim-module-decidim_awesome
+  revision: e5d9020a7310d9e94df531e493d08232c58c0a80
+  branch: fix/user-images
+  specs:
+    decidim-decidim_awesome (0.8.3)
+      decidim-admin (>= 0.25.0, < 0.27)
+      decidim-core (>= 0.25.0, < 0.27)
+      sassc (~> 2.3)
+
+GIT
   remote: https://github.com/mainio/decidim-module-term_customizer
   revision: 6b5e50d9ae4cf16897cf193da4a55cd07d3fce81
   branch: develop
@@ -288,10 +298,6 @@ GEM
     decidim-debates (0.26.1)
       decidim-comments (= 0.26.1)
       decidim-core (= 0.26.1)
-    decidim-decidim_awesome (0.8.2)
-      decidim-admin (>= 0.25.0, < 0.27)
-      decidim-core (>= 0.25.0, < 0.27)
-      sassc (~> 2.3)
     decidim-dev (0.26.1)
       axe-core-rspec (~> 4.1.0)
       byebug (~> 11.0)
@@ -827,7 +833,7 @@ DEPENDENCIES
   decidim (= 0.26.1)
   decidim-conferences (= 0.26.1)
   decidim-consultations (= 0.26.1)
-  decidim-decidim_awesome (~> 0.8.2)
+  decidim-decidim_awesome!
   decidim-dev (= 0.26.1)
   decidim-templates (= 0.26.1)
   decidim-term_customizer!

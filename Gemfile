@@ -16,7 +16,8 @@ gem "decidim-templates", DECIDIM_VERSION
 gem "i18n", "~> 1.8.1"
 
 gem "bootsnap", "~> 1.7"
-gem "decidim-decidim_awesome", "~> 0.8.2"
+# gem "decidim-decidim_awesome", "~> 0.8.2"
+gem "decidim-decidim_awesome", git: "https://github.com/Platoniq/decidim-module-decidim_awesome", branch: "fix/user-images"
 gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer", branch: "develop"
 gem "faker", "~> 2.14"
 gem "omniauth-rails_csrf_protection"
