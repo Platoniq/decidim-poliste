@@ -13,8 +13,8 @@ module Decidim
 
     def notification_title
       notification.event_class_instance.notification_title
-      rescue
-        I18n.t("decidim.notifications.missing_event")
+    rescue StandardError
+      I18n.t("decidim.notifications.missing_event")
     end
 
     private
