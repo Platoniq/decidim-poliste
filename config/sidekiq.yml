@@ -6,3 +6,5 @@
   - ["events", 1]
   - ["metrics", 1]
   - ["default", 1]
+  - ["active_storage_analysis", 1]
+  - ["active_storage_purge", 1]
