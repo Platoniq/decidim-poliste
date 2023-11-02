@@ -844,6 +844,7 @@ DEPENDENCIES
   listen (~> 3.1)
   omniauth-rails_csrf_protection
   puma (>= 5.0.0)
+  redis (= 4.6.0)
   rubocop-faker
   sidekiq
   sidekiq-cron
@@ -853,7 +854,7 @@ DEPENDENCIES
   wicked_pdf (~> 2.1)
 
 RUBY VERSION
-   ruby 2.7.1p83
+   ruby 2.7.5p203
 
 BUNDLED WITH
    2.3.7
