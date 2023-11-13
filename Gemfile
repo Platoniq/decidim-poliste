@@ -51,6 +51,5 @@ end
 
 group :production do
   gem "figaro"
-
   gem "sidekiq-cron"
 end
