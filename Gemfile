@@ -16,15 +16,14 @@ gem "decidim-templates", DECIDIM_VERSION
 gem "i18n", "~> 1.8.1"
 
 gem "bootsnap", "~> 1.7"
-# gem "decidim-decidim_awesome", "~> 0.8.2"
 gem "decidim-decidim_awesome", git: "https://github.com/Platoniq/decidim-module-decidim_awesome", branch: "main"
 gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer", branch: "develop"
 gem "faker", "~> 2.14"
 gem "omniauth-rails_csrf_protection"
 gem "puma", ">= 5.0.0"
 gem "wicked_pdf", "~> 2.1"
-# temporality
-gem "redis", "4.6.0"
+
+gem "redis", "~> 4.6.0"
 gem "sidekiq"
 
 group :development, :test do
@@ -51,6 +50,5 @@ end
 
 group :production do
   gem "figaro"
-
   gem "sidekiq-cron"
 end
